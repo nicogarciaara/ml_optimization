@@ -1,0 +1,654 @@
+
+Log started (V12.9.0.0) Thu Jul 13 12:59:29 2023
+
+
+Problem 'model.lp' read.
+Read time = 0.02 sec. (0.02 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 94 rows and 0 columns.
+MIP Presolve modified 315 coefficients.
+Reduced MIP has 110 rows, 100 columns, and 450 nonzeros.
+Reduced MIP has 90 binaries, 10 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.08 sec. (0.58 ticks)
+Found incumbent of value 221.697160 after 0.09 sec. (1.01 ticks)
+Probing time = 0.02 sec. (0.16 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 110 rows, 100 columns, and 450 nonzeros.
+Reduced MIP has 90 binaries, 10 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.31 ticks)
+Probing time = 0.00 sec. (0.16 ticks)
+Clique table members: 20.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 2 threads.
+Root relaxation solution time = 0.00 sec. (0.14 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          221.6972        0.0000           100.00%
+*     0+    0                          190.3496        0.0000           100.00%
+*     0     0      integral     0      112.4187      112.4187        5    0.00%
+Elapsed time = 0.44 sec. (1.98 ticks, tree = 0.00 MB, solutions = 3)
+
+Root node processing (before b&c):
+  Real time             =    0.61 sec. (1.99 ticks)
+Parallel b&c, 2 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.61 sec. (1.99 ticks)
+
+Solution pool: 3 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  1.1241868000e+02
+Solution time =    1.25 sec.  Iterations = 5  Nodes = 0
+Deterministic time = 1.99 ticks  (1.59 ticks/sec)
+
+
+Problem 'cplexmodel.lp' read.
+Read time = 0.00 sec. (0.02 ticks)
+
+Refine conflict on 143 members...
+
+ Iteration  Max Members  Min Members
+         1          142            0
+         2          141            0
+         3          141            0
+         4          141            0
+         5          141            0
+         6          141            0
+         7          141            0
+         8          141            0
+         9          141            0
+        10          141            0
+        11          141            0
+        12          141            0
+        13          141            0
+        14          141            0
+        15          141            0
+        16          141            0
+        17          141            0
+        18          141            0
+        19          141            0
+        20          141            0
+        21          141            0
+        22          141            0
+        23          141            0
+        24          141            0
+        25          141            0
+        26          141            0
+        27          141            0
+        28          141            0
+        29          141            0
+        30          141            0
+        31          141            0
+        32          141            0
+        33          141            0
+        34          141            0
+        35          141            0
+        36          141            0
+        37          141            0
+        38          141            0
+        39          141            0
+        40          141            0
+        41          141            0
+        42          140            0
+        43          140            0
+        44          140            0
+        45          140            0
+        46          140            0
+        47          140            0
+        48          139            0
+        49          138            0
+        50          137            0
+        51          136            0
+        52          135            0
+        53          134            0
+        54          133            0
+        55          132            0
+        56          131            0
+        57          130            0
+        58          129            0
+        59          128            0
+        60          128            0
+        61          127            0
+        62          127            0
+        63          127            0
+        64          127            0
+        65          127            0
+        66          127            0
+        67          127            0
+        68          127            0
+        69          127            0
+        70          127            0
+        71          127            0
+        72          127            0
+        73          127            0
+        74          127            0
+        75          127            0
+        76          127            0
+        77          127            0
+        78          127            0
+        79          127            0
+        80          127            0
+        81          127            0
+        82          127            0
+        83          127            0
+        84          127            0
+        85          127            0
+        86          127            0
+        87          127            0
+        88          127            0
+        89          127            0
+        90          127            0
+        91          127            0
+        92          127            0
+        93          127            0
+        94          127            0
+        95          127            0
+        96          127            0
+        97          127            0
+        98          127            0
+        99          127            0
+       100          127            0
+       101          127            0
+       102          127            0
+       103          127            0
+       104          127            0
+       105          127            0
+       106          127            0
+       107          127            0
+       108          127            0
+       109          127            0
+       110          127            0
+       111          127            0
+       112          127            0
+       113          127            0
+       114          126            0
+       115          126            1
+       116          126            2
+       117          126            3
+       118          126            4
+       119          126            5
+       120          126            6
+       121          126            7
+       122          126            8
+       123          126            9
+       124          126           10
+       125          126           11
+       126          126           12
+       127          126           13
+       128          126           14
+       129          126           15
+       130          126           16
+       131          126           17
+       132          126           18
+       133          126           19
+       134          126           20
+       135          126           21
+       136          126           22
+       137          126           23
+       138          126           24
+       139          126           25
+       140          126           26
+       141          126           27
+       142          126           28
+       143          126           29
+       144          126           30
+       145          126           31
+       146          126           32
+       147          126           33
+       148          126           34
+       149          126           35
+       150          126           36
+       151          126           37
+       152          126           38
+       153          126           39
+       154          126           40
+       155          126           41
+       156          126           42
+       157          126           43
+       158          126           44
+       159          126           45
+       160          126           46
+       161          126           47
+       162          126           48
+       163          126           49
+       164          126           50
+       165          126           51
+       166          126           52
+       167          126           53
+       168          126           54
+       169          126           55
+       170          126           56
+       171          126           57
+       172          126           58
+       173          126           59
+       174          126           60
+       175          126           61
+       176          126           62
+       177          126           63
+       178          126           64
+       179          126           65
+       180          126           66
+       181          126           67
+       182          126           68
+       183          126           69
+       184          126           70
+       185          126           71
+       186          126           72
+       187          126           73
+       188          126           74
+       189          126           75
+       190          126           76
+       191          126           77
+       192          126           78
+       193          126           79
+       194          126           80
+       195          126           81
+       196          126           82
+       197          126           83
+       198          126           84
+       199          126           85
+       200          126           86
+       201          126           87
+       202          126           88
+       203          126           89
+       204          126           90
+       205          126           91
+       206          126           92
+       207          126           93
+       208          126           94
+       209          126           95
+       210          126           96
+       211          126           97
+       212          126           98
+       213          126           99
+       214          126          100
+       215          126          101
+       216          126          102
+       217          126          103
+       218          126          104
+       219          126          105
+       220          126          106
+       221          126          107
+       222          126          108
+       223          126          109
+       224          126          110
+       225          126          111
+       226          126          112
+       227          126          113
+       228          126          114
+       229          126          115
+       230          126          116
+       231          126          117
+       232          126          118
+       233          126          119
+       234          126          120
+       235          126          121
+       236          126          122
+       237          126          123
+       238          126          124
+       239          126          125
+       240          126          126
+
+Minimal conflict:  107 linear constraint(s)
+                    10 lower bound(s)
+                     9 upper bound(s)
+Conflict computation time =   28.84 sec.  Iterations = 240
+Deterministic time = 3708.87 ticks  (128.58 ticks/sec)
+
+Problem written to file 'conflict.lp'.
+
+Problem 'cplexmodel.lp' read.
+Read time = 0.02 sec. (0.02 ticks)
+
+Refine conflict on 143 members...
+
+ Iteration  Max Members  Min Members
+         1          142            0
+         2          141            0
+         3          141            0
+         4          141            0
+         5          141            0
+         6          141            0
+         7          141            0
+         8          141            0
+         9          141            0
+        10          141            0
+        11          141            0
+        12          141            0
+        13          141            0
+        14          141            0
+        15          141            0
+        16          141            0
+        17          141            0
+        18          141            0
+        19          141            0
+        20          141            0
+        21          141            0
+        22          141            0
+        23          141            0
+        24          141            0
+        25          141            0
+        26          141            0
+        27          141            0
+        28          141            0
+        29          141            0
+        30          141            0
+        31          141            0
+        32          141            0
+        33          141            0
+        34          141            0
+        35          141            0
+        36          141            0
+        37          141            0
+        38          141            0
+        39          141            0
+        40          141            0
+        41          141            0
+        42          140            0
+        43          140            0
+        44          140            0
+        45          140            0
+        46          140            0
+        47          140            0
+        48          139            0
+        49          138            0
+        50          137            0
+        51          136            0
+        52          135            0
+        53          134            0
+        54          133            0
+        55          132            0
+        56          131            0
+        57          130            0
+        58          129            0
+        59          128            0
+        60          128            0
+        61          127            0
+        62          127            0
+        63          127            0
+        64          127            0
+        65          127            0
+        66          127            0
+        67          127            0
+        68          127            0
+        69          127            0
+        70          127            0
+        71          127            0
+        72          127            0
+        73          127            0
+        74          127            0
+        75          127            0
+        76          127            0
+        77          127            0
+        78          127            0
+        79          127            0
+        80          127            0
+        81          127            0
+        82          127            0
+        83          127            0
+        84          127            0
+        85          127            0
+        86          127            0
+        87          127            0
+        88          127            0
+        89          127            0
+        90          127            0
+        91          127            0
+        92          127            0
+        93          127            0
+        94          127            0
+        95          127            0
+        96          127            0
+        97          127            0
+        98          127            0
+        99          127            0
+       100          127            0
+       101          127            0
+       102          127            0
+       103          127            0
+       104          127            0
+       105          127            0
+       106          127            0
+       107          127            0
+       108          127            0
+       109          127            0
+       110          127            0
+       111          127            0
+       112          127            0
+       113          127            0
+       114          126            0
+       115          126            1
+       116          126            2
+       117          126            3
+       118          126            4
+       119          126            5
+       120          126            6
+       121          126            7
+       122          126            8
+       123          126            9
+       124          126           10
+       125          126           11
+       126          126           12
+       127          126           13
+       128          126           14
+       129          126           15
+       130          126           16
+       131          126           17
+       132          126           18
+       133          126           19
+       134          126           20
+       135          126           21
+       136          126           22
+       137          126           23
+       138          126           24
+       139          126           25
+       140          126           26
+       141          126           27
+       142          126           28
+       143          126           29
+       144          126           30
+       145          126           31
+       146          126           32
+       147          126           33
+       148          126           34
+       149          126           35
+       150          126           36
+       151          126           37
+       152          126           38
+       153          126           39
+       154          126           40
+       155          126           41
+       156          126           42
+       157          126           43
+       158          126           44
+       159          126           45
+       160          126           46
+       161          126           47
+       162          126           48
+       163          126           49
+       164          126           50
+       165          126           51
+       166          126           52
+       167          126           53
+       168          126           54
+       169          126           55
+       170          126           56
+       171          126           57
+       172          126           58
+       173          126           59
+       174          126           60
+       175          126           61
+       176          126           62
+       177          126           63
+       178          126           64
+       179          126           65
+       180          126           66
+       181          126           67
+       182          126           68
+       183          126           69
+       184          126           70
+       185          126           71
+       186          126           72
+       187          126           73
+       188          126           74
+       189          126           75
+       190          126           76
+       191          126           77
+       192          126           78
+       193          126           79
+       194          126           80
+       195          126           81
+       196          126           82
+       197          126           83
+       198          126           84
+       199          126           85
+       200          126           86
+       201          126           87
+       202          126           88
+       203          126           89
+       204          126           90
+       205          126           91
+       206          126           92
+       207          126           93
+       208          126           94
+       209          126           95
+       210          126           96
+       211          126           97
+       212          126           98
+       213          126           99
+       214          126          100
+       215          126          101
+       216          126          102
+       217          126          103
+       218          126          104
+       219          126          105
+       220          126          106
+       221          126          107
+       222          126          108
+       223          126          109
+       224          126          110
+       225          126          111
+       226          126          112
+       227          126          113
+       228          126          114
+       229          126          115
+       230          126          116
+       231          126          117
+       232          126          118
+       233          126          119
+       234          126          120
+       235          126          121
+       236          126          122
+       237          126          123
+       238          126          124
+       239          126          125
+       240          126          126
+
+Minimal conflict:  107 linear constraint(s)
+                    10 lower bound(s)
+                     9 upper bound(s)
+Conflict computation time =   27.16 sec.  Iterations = 240
+Deterministic time = 3712.31 ticks  (136.70 ticks/sec)
+
+Problem written to file 'conflict.lp'.
+
+Log started (V12.9.0.0) Thu Jul 13 15:24:48 2023
+
+
+Problem 'model.lp' read.
+Read time = 0.03 sec. (0.08 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 50 rows and 15 columns.
+MIP Presolve modified 270 coefficients.
+Reduced MIP has 438 rows, 485 columns, and 3130 nonzeros.
+Reduced MIP has 440 binaries, 45 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (3.32 ticks)
+Found incumbent of value 399.050300 after 0.09 sec. (6.37 ticks)
+Probing time = 0.00 sec. (2.88 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 438 rows, 485 columns, and 3130 nonzeros.
+Reduced MIP has 440 binaries, 45 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (2.38 ticks)
+Probing time = 0.00 sec. (2.85 ticks)
+Clique table members: 1561.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 2 threads.
+Root relaxation solution time = 0.00 sec. (1.11 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          399.0503        0.0000           100.00%
+*     0     0      integral     0      249.3536      249.3536       37    0.00%
+Elapsed time = 0.19 sec. (17.38 ticks, tree = 0.00 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.19 sec. (17.41 ticks)
+Parallel b&c, 2 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.19 sec. (17.41 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  2.4935356000e+02
+Solution time =    0.28 sec.  Iterations = 37  Nodes = 0
+Deterministic time = 17.42 ticks  (61.98 ticks/sec)
+
+Problem is feasible; no conflict available.
+
+Problem 'cplexmodel.lp' read.
+Read time = 0.01 sec. (0.08 ticks)
+
+Refine conflict on 590 members...
+
+ Iteration  Max Members  Min Members
+         1          297            0
+         2          261            0
+         3          243            0
+         4          234            0
+         5          232            0
+         6          231            0
+         7          229            0
+         8          215            0
+         9          214            0
+        10          201            0
+        11          200            0
+        12          187            0
+        13          186            0
+        14          174            0
+        15          172            0
+        16          171            0
+        17          150            0
+        18          140            0
+        19          135            0
+        20          133            0
+        21          132            0
+        22           11            0
+        23           11            1
+        24           11            2
+        25           11            3
+        26           11            4
+        27           11            5
+        28           11            6
+        29           11            7
+        30           11            8
+        31           11            9
+        32           11           10
+        33           11           11
+
+Minimal conflict:   11 linear constraint(s)
+                     0 lower bound(s)
+                     0 upper bound(s)
+Conflict computation time =   10.97 sec.  Iterations = 33
+Deterministic time = 788.50 ticks  (71.89 ticks/sec)
+
+Minimal conflict written to file 'conflict.clp'.
